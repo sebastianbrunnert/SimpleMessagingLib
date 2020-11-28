@@ -1,0 +1,15 @@
+{
+  "name": "simple-messaging-lib",
+  "version": "1.0.1",
+  "description": "This is a simple libary which allows you to make messaging easy in your project.",
+  "main": "test.js",
+  "scripts": {
+    "start": "node examples/hello-world-example.js"
+  },
+  "keywords": [
+    "Messaging",
+    "UDP"
+  ],
+  "author": "Sebastian Brunnert",
+  "license": "MIT"
+}

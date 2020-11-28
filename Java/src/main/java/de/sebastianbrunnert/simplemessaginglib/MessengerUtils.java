@@ -7,6 +7,7 @@ public class MessengerUtils {
 
     public static int getFreePort() throws IOException {
         ServerSocket socket = new ServerSocket(0);
+        socket.close();
         return socket.getLocalPort();
     }
 
