@@ -3,9 +3,9 @@
 This is a simple library which allows you to make messaging easy in your project. At the moment you can just use it in Java and JavaScript. You build up an UDP-Server to which multiple Clients can connect, send to them messages and receive messages from these Clients.
 
 # How to use - JavaScript
-Actually, this libary is simple to use, so i would recommend you to look at the example(s).  
-After integrating this libary to your project you can:
-##### Installing Libary
+Actually, this library is simple to use, so i would recommend you to look at the example(s).  
+After integrating this library to your project you can:
+##### Installing Library
 ####
 ```
 $ npm install simple-messaging-lib
@@ -13,7 +13,7 @@ $ npm install simple-messaging-lib
 ##### Startup Server
 ####
 ```
-// Import the libary (server)
+// Import the library (server)
 const { createServer } =  require("simplemessaginglib/server")
 
 // Creates server on port 4444
@@ -28,7 +28,7 @@ var server =  createServer(4444, function(packet,connection) {
 ##### Create a Client
 ####
 ```
-// Import the libary (client)
+// Import the library (client)
 const { createClient } =  require("../client")
 
 // Connects client to server on 127.0.0.1:4444
@@ -56,8 +56,8 @@ client.send(title,args);
 ```
 
 # How to use - Java
-Actually, this libary is simple to use, so i would recommend you to look at the example(s).
-After integrating this libary to your project you can: 
+Actually, this library is simple to use, so i would recommend you to look at the example(s).
+After integrating this library to your project you can: 
 ##### Startup Server
 ####
 ```
