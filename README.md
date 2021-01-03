@@ -1,6 +1,6 @@
 
 # SimpleMessagingLib
-This is a simple libary which allows you to make messaging easy in your project. At the moment you can just use it in Java and JavaScript. You build up an UDP-Server to which multiple Clients can connect, send to them messages and receive messages from these Clients.
+This is a simple library which allows you to make messaging easy in your project. At the moment you can just use it in Java and JavaScript. You build up an UDP-Server to which multiple Clients can connect, send to them messages and receive messages from these Clients.
 
 # How to use - JavaScript
 Actually, this libary is simple to use, so i would recommend you to look at the example(s).  
